@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* セクション：ページ全体のCSS設定 */
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 14px;
+    font-family: "Hiragino Sans";
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+
+/* セクション：ヘッダーを整える */
+header {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ffcccc;
+}
+
+
+/* セクション：メインとサイドバー（2カラムレイアウト）を整える（メインエリア全体） */
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main {
+    width: 700px;
+    background-color: #ccffcc;
+}
+
+#menu {
+    width: 300px;
+    background-color: #ccccff;
+}
+
+
+/* セクション：フッターを整える */
+footer {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ffccff;
+}
+
